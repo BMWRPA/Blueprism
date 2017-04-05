@@ -1,0 +1,4546 @@
+﻿<process name="MS Word VBO" version="5.0.10" bpversion="5.0.10.0" narrative="The VBO replacement for the Common Automation Word business object" type="object" runmode="Exclusive" preferredid="e559fb86-9b63-4e0b-9399-972227189995">
+  <appdef>
+    <element name="Application Root">
+      <id>5ec304cd-35d9-4d36-a1e8-9ee22ab08798</id>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="e283bce6-2b3d-4a05-8d79-05e52588fccd" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="349117e1-607c-4bb6-a911-5074cb58aca0" type="Normal" published="True">
+    <name>Add Table Row</name>
+    <view>
+      <camerax>-402</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="8ddb9b98-da89-468a-b5a4-5eedf5a204ee" type="Normal" published="True">
+    <name>Set Table Cell Value</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="63dcd298-f559-4625-834f-f728c3391345" type="Normal" published="True">
+    <name>Get Table Cell Value</name>
+    <view>
+      <camerax>204</camerax>
+      <cameray>21</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="ab5706df-5945-47c6-ad85-98b64e6966f8" type="Normal" published="True">
+    <name>Get Highlighted Text</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="8e6deaaf-17ce-4784-b335-a9405da05140" type="Normal" published="True">
+    <name>Replace Highlighted Text</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="e945fdd1-12ee-49a3-828b-f210f597b9ea" type="Normal" published="True">
+    <name>Select All</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="0ad7469f-a55c-48de-9ec9-7b3b429c91b1" type="Normal" published="True">
+    <name>Copy to Clipboard</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="e3194549-4702-4196-8e84-02c9414289f2" type="Normal" published="True">
+    <name>Paste from Clipboard</name>
+    <view>
+      <camerax>255</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="479d48e5-45be-4252-99e6-7685eacb95f0" type="Normal" published="True">
+    <name>Clear Clipboard</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="a46a3a18-37e6-4658-bf90-5612c2db5da4" type="Normal" published="True">
+    <name>Find Text</name>
+    <view>
+      <camerax>-81</camerax>
+      <cameray>-21</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="5b7f8295-b245-476f-8198-c6ee56d99e38" type="Normal" published="True">
+    <name>Extract Text</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="014a9077-47d7-46c4-949a-9dd622e2aa55" type="Normal" published="True">
+    <name>Select Next Cell</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="e5c26c59-2398-4789-8c68-a82d3e675364" type="Normal" published="True">
+    <name>Set Selected Cell Text</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="25894c29-7a40-4c69-8562-7b0ec251e307" type="Normal" published="True">
+    <name>Select Next Field</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="0982104d-2763-42e8-a690-69c44d9a4046" type="Normal" published="True">
+    <name>Set Selected Checkbox</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="dc779662-1e7e-4438-b1c5-1106c851c3a3" type="Normal" published="True">
+    <name>Get Footer Text</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="b5d196b4-36af-4e29-991f-b6985b43dce2" type="Normal" published="False">
+    <name>CheckFileExists</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="293ea206-e215-4639-a1d8-85d6fad4c062" type="Normal" published="False">
+    <name>CheckInstanceHandle</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="31f689ac-b51a-4af0-bc24-9a36bedf0b07" type="Normal" published="True">
+    <name>Create Instance</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="fab67da7-2774-4aba-b65c-e3cc6c20dac5" type="Normal" published="True">
+    <name>Attach Instance</name>
+    <view>
+      <camerax>15</camerax>
+      <cameray>-84</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="8b161e34-9d3a-4120-a6ef-47fa0d4fb3ae" type="Normal" published="True">
+    <name>Detach Instance</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="89550223-4597-48e5-a1c2-c61c726899cf" type="Normal" published="True">
+    <name>Set Current Instance</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="9ba034bb-3325-48c1-8185-8a95ba3aa7b2" type="Normal" published="True">
+    <name>Open</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>42</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="a12d6007-5275-4a01-a53e-1fe566ccb6eb" type="Normal" published="True">
+    <name>Close</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="1e56148e-8eb8-411a-94ac-081b722cf098" type="Normal" published="True">
+    <name>Show</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>-56</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="2a382c59-0507-47f8-82d5-1ca1ae93d305" type="Normal" published="True">
+    <name>Hide</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="d064a183-869e-4269-af78-e8278fcf2a75" type="Normal" published="True">
+    <name>Exit</name>
+    <view>
+      <camerax>46</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="df9a2d09-7817-4c60-9dfd-db0023481f74" type="Normal" published="True">
+    <name>Create Document</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="0034274b-9238-49f1-9208-489c5c1f0440" type="Normal" published="True">
+    <name>Save As</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="a54f1cbc-a023-4c2d-bf17-23169a3e685d" type="Normal" published="True">
+    <name>ExportPDF</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="84295aaa-378f-41c0-892b-81b1fa1e43c7" type="Normal" published="True">
+    <name>Get Body</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="ec22d5e7-f140-425a-bbaa-7c1da03813c4" type="Normal" published="True">
+    <name>Type Text</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="658b8a32-bfce-4df2-bfdc-a9525bc2979e" type="Normal" published="True">
+    <name>Update Bookmark</name>
+    <view>
+      <camerax>-142</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="60cba9c8-4c53-48b7-b25a-56d6603faf04" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>3fa025dc-32a8-4ab7-b052-cc5cd447a2cf</onsuccess>
+  </stage>
+  <stage stageid="3fa025dc-32a8-4ab7-b052-cc5cd447a2cf" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="7d99e0f7-64a5-47c3-820f-a9c87bcbe9c5" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+      <import>System.Collections.Generic</import>
+      <import>Microsoft.VisualBasic</import>
+      <import>System.IO</import>
+      <import>System.Runtime.InteropServices</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[
+]]></globalcode>
+    <code><![CDATA[' The 'selected' instance of word.
+' This is updated on any access of an instance (either adding a new
+' instance or getting one)
+'
+Private CurrentInstance As Object
+
+' Map of instances keyed against the handles which represent them.
+'
+Private HandleMap As Dictionary(Of Integer, Object)
+
+' Map of handles keyed against the instances they represent.
+' Here to ensure we don't assign multiple handles to a single
+' instance and bring about a memory leak
+'
+Private InstanceMap As Dictionary(Of Object, Integer)
+
+' Constructor - this just initialises the collections which map
+' the word instances to handles and vice versa.
+Public Sub New()
+
+	Me.HandleMap = New Dictionary(Of Integer, Object)()
+	Me.InstanceMap = New Dictionary(Of Object, Integer)()
+
+End Sub
+
+' Gets the handle for a given instance
+'
+' If the instance is not yet held, then it is added to the 
+' 	map and a handle is assigned to it. It is also set as the
+' 	'current' instance, accessed with a handle of zero in the
+' 	below methods.
+'
+' Either way, the handle which identifies the instance is returned
+'
+' @param Instance The instance for which a handle is required
+'
+' @return The handle of the instance
+Protected Function GetHandle(Instance As Object) As Integer
+
+	If Instance Is Nothing Then
+		Throw New ArgumentNullException("Tried to add an empty instance")
+	End If
+
+	' Check if we already have this instance - if so, return it.
+	If InstanceMap.ContainsKey(Instance) Then
+		CurrentInstance = Instance
+		Return InstanceMap(Instance)
+	End If
+
+	Dim key as Integer
+	For key = 1 to Integer.MaxValue
+		If Not HandleMap.ContainsKey(key)
+			HandleMap.Add(key, Instance)
+			InstanceMap.Add(Instance, key)
+			Me.CurrentInstance = Instance
+			Return key
+		End If
+	Next key
+
+	Return 0
+
+End Function
+
+' Gets the instance corresponding to the given handle, setting
+' 	the instance as the 'current' instance for future calls
+'
+' A value of 0 will provide the 'current' instance, which
+' 	is set each time an instance is added or accessed.
+'
+' This will return Nothing if the given handle does not
+' correspond to a registered instance, or if the current
+' instance was closed and the reference has not been updated.
+'
+' @param Handle The handle representing the instance required,
+' 		or zero to get the 'current' instance.
+Protected Function GetInstance(Handle As Integer) As Object
+
+	Dim Instance As Object = Nothing
+	
+	If Handle = 0 Then
+		If CurrentInstance Is Nothing Then
+			' Special case - getting the current instance when the
+			' instance is not set, try and get a current open instance.
+			' If none there, create a new one and assign a handle as if
+			' CreateInstance() had been called
+		'	Try
+		'		Instance = GetObject(,"Word.Application")
+		'	Catch ex as Exception ' Not running
+		'		Instance = Nothing
+		'	End Try
+		'	If Instance Is Nothing Then
+				Create_Instance(Handle)
+				' Instance = CreateObject("Word.Application")
+				' Force the instance into the maps.
+				' GetHandle(Instance)
+				' CurrentInstance should now be set.
+				' If it's not, we have far bigger problems
+		'	End If
+		End If
+		Return CurrentInstance
+	End If
+
+	Instance = HandleMap(Handle)
+	If Not Instance Is Nothing Then
+		CurrentInstance = Instance
+	End If
+	Return Instance
+
+End Function
+
+' Gets the document in the given instance with the given name.
+'
+' @param Handle The handle representing the instance which holds the document
+'
+' @param Name The name of the document on the instance
+'
+' @return The object representing the document defined
+Protected Function GetDocument(Handle As Integer, Name as String) As Object
+
+	Dim doc as Object = Nothing
+	If String.IsNullOrEmpty(Name) Then
+		doc = GetInstance(Handle).ActiveDocument
+		If doc Is Nothing ' We need to create a deafult workbook
+			'doc = NewDocument(Handle)
+		End If
+		Return doc
+	Else
+		Return GetInstance(Handle).Documents(Name)
+	End If
+
+End Function]]></code>
+  </stage>
+  <stage stageid="3db4823c-cb33-410c-a5b4-0457287ea928" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>e283bce6-2b3d-4a05-8d79-05e52588fccd</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ffe1c4e5-db7e-48da-b754-89d06195c6f3" name="Start" type="Start">
+    <subsheetid>e283bce6-2b3d-4a05-8d79-05e52588fccd</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>923ee3cf-37bc-426e-829d-e591ad107565</onsuccess>
+  </stage>
+  <stage stageid="923ee3cf-37bc-426e-829d-e591ad107565" name="End" type="End">
+    <subsheetid>e283bce6-2b3d-4a05-8d79-05e52588fccd</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="87572a90-cbe5-4b41-931c-b4083da0a1bf" name="new" type="Note">
+    <subsheetid>e283bce6-2b3d-4a05-8d79-05e52588fccd</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="339dd02a-a643-42ed-befd-3faa7d5a2759" name="new" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="1bbb1c14-4990-47fd-8b73-630da57d702f" name="Create Instance" type="SubSheetInfo">
+    <subsheetid>31f689ac-b51a-4af0-bc24-9a36bedf0b07</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="12dfbbd0-3245-4078-ac90-1f65f7f3bb95" name="Start" type="Start">
+    <subsheetid>31f689ac-b51a-4af0-bc24-9a36bedf0b07</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>62dc3626-984b-4c4f-af3c-ade0a9242ff7</onsuccess>
+  </stage>
+  <stage stageid="699a02c3-30f3-4bdd-aa7d-2afc1110af20" name="End" type="End">
+    <subsheetid>31f689ac-b51a-4af0-bc24-9a36bedf0b07</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="number" name="handle" stage="handle" />
+    </outputs>
+  </stage>
+  <stage stageid="62dc3626-984b-4c4f-af3c-ade0a9242ff7" name="Create Instance" type="Code">
+    <subsheetid>31f689ac-b51a-4af0-bc24-9a36bedf0b07</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="number" name="handle" stage="handle" />
+    </outputs>
+    <onsuccess>699a02c3-30f3-4bdd-aa7d-2afc1110af20</onsuccess>
+    <code><![CDATA[
+Dim word as Object = CreateObject("Word.Application")
+
+' Create a GUID with which we can kill the instance later
+' if we have to play hardball to get rid of it.
+word.Caption = System.Guid.NewGuid().ToString().ToUpper()
+
+handle = GetHandle(word)]]></code>
+  </stage>
+  <stage stageid="edda7cc0-1a94-49d6-a153-8fc888542e8c" name="handle" type="Data">
+    <subsheetid>31f689ac-b51a-4af0-bc24-9a36bedf0b07</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>15</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4b4d7331-72da-406d-82b7-23a7ed9ed828" name="Show" type="SubSheetInfo">
+    <subsheetid>1e56148e-8eb8-411a-94ac-081b722cf098</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="a23d8915-ce49-49b8-9796-859046f81b10" name="Start" type="Start">
+    <subsheetid>1e56148e-8eb8-411a-94ac-081b722cf098</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>079aa539-1785-4099-82ef-7f679226a6ea</onsuccess>
+  </stage>
+  <stage stageid="e652822b-b3f6-4d8e-b67b-09f5a3fa03aa" name="End" type="End">
+    <subsheetid>1e56148e-8eb8-411a-94ac-081b722cf098</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="079aa539-1785-4099-82ef-7f679226a6ea" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>1e56148e-8eb8-411a-94ac-081b722cf098</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>ae5c5f27-8330-46a8-a3dd-42c521b4acc9</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="ae5c5f27-8330-46a8-a3dd-42c521b4acc9" name="ShowInstance" type="Code">
+    <subsheetid>1e56148e-8eb8-411a-94ac-081b722cf098</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>e652822b-b3f6-4d8e-b67b-09f5a3fa03aa</onsuccess>
+    <code><![CDATA[
+	GetInstance(handle).Visible = True]]></code>
+  </stage>
+  <stage stageid="ba182804-017d-4701-bee5-6ce4825d6a92" name="handle" type="Data">
+    <subsheetid>1e56148e-8eb8-411a-94ac-081b722cf098</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="06f9c8b0-d782-4519-91eb-ef08a4ff69f4" name="CheckInstanceHandle" type="SubSheetInfo">
+    <subsheetid>293ea206-e215-4639-a1d8-85d6fad4c062</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="55ae55da-a84e-4e04-89de-dd88ff6265f3" name="Start" type="Start">
+    <subsheetid>293ea206-e215-4639-a1d8-85d6fad4c062</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>8380be40-583e-4e38-8bd2-f0d2ca89009c</onsuccess>
+  </stage>
+  <stage stageid="2b3b42b8-d366-4656-9b94-ab1b48254b80" name="End" type="End">
+    <subsheetid>293ea206-e215-4639-a1d8-85d6fad4c062</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="8380be40-583e-4e38-8bd2-f0d2ca89009c" name="Check Handle" type="Code">
+    <subsheetid>293ea206-e215-4639-a1d8-85d6fad4c062</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="HandleMissing" stage="HandleMissing" />
+    </outputs>
+    <onsuccess>f28ac6b7-15d9-45f6-ab3a-54a0da21bbb3</onsuccess>
+    <code><![CDATA[
+' Just ensure that the handle references a valid instance
+HandleMissing = (GetInstance(handle) is Nothing)]]></code>
+  </stage>
+  <stage stageid="0e84f827-315e-40eb-b54b-12caa5d9fd69" name="handle" type="Data">
+    <subsheetid>293ea206-e215-4639-a1d8-85d6fad4c062</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-150</displayx>
+    <displayy>15</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9f261599-10ff-401e-9119-62c9ac77151b" name="HandleMissing" type="Data">
+    <subsheetid>293ea206-e215-4639-a1d8-85d6fad4c062</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-150</displayx>
+    <displayy>60</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f28ac6b7-15d9-45f6-ab3a-54a0da21bbb3" name="Is Handle Missing?" type="Decision">
+    <subsheetid>293ea206-e215-4639-a1d8-85d6fad4c062</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>0</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <decision expression="[HandleMissing]" />
+    <ontrue>6defa143-8947-48ef-935f-d36833614ef5</ontrue>
+    <onfalse>2b3b42b8-d366-4656-9b94-ab1b48254b80</onfalse>
+  </stage>
+  <stage stageid="6defa143-8947-48ef-935f-d36833614ef5" name="Bad Instance Handle" type="Exception">
+    <subsheetid>293ea206-e215-4639-a1d8-85d6fad4c062</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>180</displayx>
+    <displayy>0</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <exception type="Bad Handle" detail="&quot;Handle: &quot; &amp; [handle] &amp; &quot; does not correspond to an Word Instance&quot;" />
+  </stage>
+  <stage stageid="1d87bd3a-132a-464c-b2d6-1a4df635cd61" name="Hide" type="SubSheetInfo">
+    <subsheetid>2a382c59-0507-47f8-82d5-1ca1ae93d305</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="1e1ba28f-613b-4a07-95bb-ade2a24a01b8" name="Start" type="Start">
+    <subsheetid>2a382c59-0507-47f8-82d5-1ca1ae93d305</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>39fb3f6f-2d7b-4840-991b-65f9fd1867a7</onsuccess>
+  </stage>
+  <stage stageid="b7e598b6-b68b-45da-b57a-2118e5a066ad" name="End" type="End">
+    <subsheetid>2a382c59-0507-47f8-82d5-1ca1ae93d305</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="39fb3f6f-2d7b-4840-991b-65f9fd1867a7" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>2a382c59-0507-47f8-82d5-1ca1ae93d305</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>afd1178a-dd11-4a73-8833-2b92063173ef</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="afd1178a-dd11-4a73-8833-2b92063173ef" name="HideInstance" type="Code">
+    <subsheetid>2a382c59-0507-47f8-82d5-1ca1ae93d305</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>b7e598b6-b68b-45da-b57a-2118e5a066ad</onsuccess>
+    <code><![CDATA[
+	GetInstance(handle).Visible = False]]></code>
+  </stage>
+  <stage stageid="315416bc-f192-4090-8a30-0fcec83584e2" name="handle" type="Data">
+    <subsheetid>2a382c59-0507-47f8-82d5-1ca1ae93d305</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ddb83909-8dc6-44dc-af21-d21979561fb9" name="Get Body" type="SubSheetInfo">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <narrative>Gets the body text from the word document</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="150cb5f0-7bfe-4c3c-a660-2d6b49f4684f" name="Start" type="Start">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="The Word VBO is initialised and a Word instance has been created/attached to" />
+    </preconditions>
+    <postconditions>
+      <condition narrative="The body text required is returned" />
+    </postconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="start" narrative="The start of the text range within the body for which the text is required" stage="start" />
+      <input type="number" name="finish" narrative="The finish of the text range within the body for which the text is required" stage="finish" />
+      <input type="text" name="documentname" narrative="The name of the document for which the body text is required" stage="documentname" />
+      <input type="number" name="handle" narrative="The handle to the Word instance in which the document is open" stage="handle" />
+    </inputs>
+    <onsuccess>59561e94-639a-4c08-9a9f-8577d49b3064</onsuccess>
+  </stage>
+  <stage stageid="6fcd9de3-9aa2-4a55-8909-4c9b3c3b5095" name="End" type="End">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Body" narrative="The text of the main body of the word document" stage="result" />
+    </outputs>
+  </stage>
+  <stage stageid="59561e94-639a-4c08-9a9f-8577d49b3064" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>50ad6a4d-1b58-4aa1-9a88-0febc63521a1</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="50ad6a4d-1b58-4aa1-9a88-0febc63521a1" name="GetBody" type="Code">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="number" name="start" expr="[start]" />
+      <input type="number" name="finish" expr="[finish]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="result" stage="result" />
+    </outputs>
+    <onsuccess>6fcd9de3-9aa2-4a55-8909-4c9b3c3b5095</onsuccess>
+    <code><![CDATA[
+	Dim doc as Object = GetDocument(handle,documentname)
+	Dim range As Object
+	range = doc.Range(start, finish)
+   
+	result = range.text()]]></code>
+  </stage>
+  <stage stageid="e6c5db5f-2ee8-4369-9025-e3f9241bc8d4" name="handle" type="Data">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ad4dcca7-8cd7-47c7-82fb-b83871f144f8" name="Open" type="SubSheetInfo">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="0b87086b-2216-4e74-974e-093cdf2d9e09" name="Start" type="Start">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="File Name" stage="filename" />
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>5fa65cf5-75fe-43d0-92fe-923c8f137803</onsuccess>
+  </stage>
+  <stage stageid="69723646-ad31-4957-9cc0-43fad959ba95" name="End" type="End">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>180</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Document Name" stage="documentname" />
+    </outputs>
+  </stage>
+  <stage stageid="995ac807-707a-4f97-8b15-971f1f0405ac" name="Open Document" type="Code">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="filename" expr="[filename]" />
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="name" stage="documentname" />
+    </outputs>
+    <onsuccess>69723646-ad31-4957-9cc0-43fad959ba95</onsuccess>
+    <code><![CDATA[
+Dim doc as Object = GetInstance(handle).Documents.Open(filename)
+name = doc.Name
+doc.Activate()]]></code>
+  </stage>
+  <stage stageid="e6ecf65f-7aed-47de-a567-abf35f57babc" name="handle" type="Data">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>90</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="fde6d90a-3cf6-477b-a18b-dc38b1fc1cdd" name="filename" type="Data">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>135</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5fa65cf5-75fe-43d0-92fe-923c8f137803" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>335a3eeb-4d99-496c-a3cd-3fdcb42bc742</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="335a3eeb-4d99-496c-a3cd-3fdcb42bc742" name="CheckFileExists" type="SubSheet">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="filename" expr="[filename]" />
+    </inputs>
+    <onsuccess>995ac807-707a-4f97-8b15-971f1f0405ac</onsuccess>
+    <processid>b5d196b4-36af-4e29-991f-b6985b43dce2</processid>
+  </stage>
+  <stage stageid="4cbcba43-cf87-49df-bd28-19033d4f390a" name="documentname" type="Data">
+    <subsheetid>9ba034bb-3325-48c1-8185-8a95ba3aa7b2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>180</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="fddb571a-d8ae-4d27-9b6c-0975f653eb71" name="CheckFileExists" type="SubSheetInfo">
+    <subsheetid>b5d196b4-36af-4e29-991f-b6985b43dce2</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ea423d51-6b2d-4452-88ad-7a8a645cbae8" name="Start" type="Start">
+    <subsheetid>b5d196b4-36af-4e29-991f-b6985b43dce2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="filename" stage="filename" />
+    </inputs>
+    <onsuccess>8b0d6478-c375-442d-94bb-f7ce884ade8b</onsuccess>
+  </stage>
+  <stage stageid="8c76538f-0d1d-4285-aab0-5290485b46e3" name="End" type="End">
+    <subsheetid>b5d196b4-36af-4e29-991f-b6985b43dce2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="bf64d828-0cb5-42c2-89ea-1a3b319f4cc4" name="filename" type="Data">
+    <subsheetid>b5d196b4-36af-4e29-991f-b6985b43dce2</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-165</displayx>
+    <displayy>0</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="3880fc08-9be7-4aff-a074-430ccdd3a128" name="fileexists" type="Data">
+    <subsheetid>b5d196b4-36af-4e29-991f-b6985b43dce2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-165</displayx>
+    <displayy>45</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>False</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="8b0d6478-c375-442d-94bb-f7ce884ade8b" name="File Exists?" type="Code">
+    <subsheetid>b5d196b4-36af-4e29-991f-b6985b43dce2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="filename" expr="[filename]" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="fileexists" stage="fileexists" />
+    </outputs>
+    <onsuccess>ffe7ae9a-2f99-4074-8efa-307dbb5aeaf3</onsuccess>
+    <code><![CDATA[
+fileexists = File.Exists(filename)]]></code>
+  </stage>
+  <stage stageid="ffe7ae9a-2f99-4074-8efa-307dbb5aeaf3" name="Does File Exist?" type="Decision">
+    <subsheetid>b5d196b4-36af-4e29-991f-b6985b43dce2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>0</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <decision expression="[fileexists]" />
+    <ontrue>8c76538f-0d1d-4285-aab0-5290485b46e3</ontrue>
+    <onfalse>29baa624-0519-491a-9b7f-e9cd67715da0</onfalse>
+  </stage>
+  <stage stageid="29baa624-0519-491a-9b7f-e9cd67715da0" name="File Not Found" type="Exception">
+    <subsheetid>b5d196b4-36af-4e29-991f-b6985b43dce2</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>0</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <exception type="File Not Found" detail="&quot;File: &quot; &amp; [filename] &amp; &quot; does not exist or is not a file&quot;" />
+  </stage>
+  <stage stageid="e1e7b560-c537-488d-8391-c097150f5969" name="documentname" type="Data">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>75</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c8466ca5-e4a8-4941-aa52-bb84a5bf4d87" name="result" type="Data">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9a9b30de-289c-4da8-9fbf-324b8bb8cdf8" name="start" type="Data">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-90</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ec2b207a-8af7-4a31-9483-bb3fcd6b8750" name="finish" type="Data">
+    <subsheetid>84295aaa-378f-41c0-892b-81b1fa1e43c7</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-105</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="14b05ea9-71ec-46bf-bf16-0cb2c048a492" name="Save As" type="SubSheetInfo">
+    <subsheetid>0034274b-9238-49f1-9208-489c5c1f0440</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="49f07090-6e20-4208-9fb6-76a00bc71a63" name="Start" type="Start">
+    <subsheetid>0034274b-9238-49f1-9208-489c5c1f0440</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="File Name" stage="filename" />
+      <input type="text" name="documentname" stage="documentname" />
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>4c19c96c-ff67-480d-bcdf-d9d18c62d3e2</onsuccess>
+  </stage>
+  <stage stageid="56c8c79f-0dda-4bc5-a9fe-eb7dc59e9940" name="End" type="End">
+    <subsheetid>0034274b-9238-49f1-9208-489c5c1f0440</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="documentname" stage="documentname" />
+    </outputs>
+  </stage>
+  <stage stageid="4c19c96c-ff67-480d-bcdf-d9d18c62d3e2" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>0034274b-9238-49f1-9208-489c5c1f0440</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>873547be-bfa6-4aee-b49e-b03ee4b10659</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="873547be-bfa6-4aee-b49e-b03ee4b10659" name="SaveAs" type="Code">
+    <subsheetid>0034274b-9238-49f1-9208-489c5c1f0440</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="text" name="filename" expr="[filename]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="newname" stage="documentname" />
+    </outputs>
+    <onsuccess>56c8c79f-0dda-4bc5-a9fe-eb7dc59e9940</onsuccess>
+    <code><![CDATA[
+	Dim doc as Object = GetDocument(handle,documentname)
+	doc.SaveAs(filename)
+	newname = doc.name]]></code>
+  </stage>
+  <stage stageid="b6243343-4d38-40b3-ac81-6044b590e61f" name="handle" type="Data">
+    <subsheetid>0034274b-9238-49f1-9208-489c5c1f0440</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d128fa5a-052f-49e3-b3d3-b2a10b0a555d" name="documentname" type="Data">
+    <subsheetid>0034274b-9238-49f1-9208-489c5c1f0440</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>75</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9664dacd-968c-462f-b852-1099ff8b3f6a" name="filename" type="Data">
+    <subsheetid>0034274b-9238-49f1-9208-489c5c1f0440</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>120</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="bb8df20e-d7cb-452c-acd2-3f04d8a9a78e" name="Exit" type="SubSheetInfo">
+    <subsheetid>d064a183-869e-4269-af78-e8278fcf2a75</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="110d847b-787a-4ad3-86f1-3a1a1ff5687c" name="Start" type="Start">
+    <subsheetid>d064a183-869e-4269-af78-e8278fcf2a75</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>f834329d-2a8f-4a5e-b021-bb8d752866a5</onsuccess>
+  </stage>
+  <stage stageid="20d7732d-8c92-4c00-a602-e650d104a383" name="End" type="End">
+    <subsheetid>d064a183-869e-4269-af78-e8278fcf2a75</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="f834329d-2a8f-4a5e-b021-bb8d752866a5" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>d064a183-869e-4269-af78-e8278fcf2a75</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>ad2c07f9-3459-4ef3-8c18-627591869d46</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="ad2c07f9-3459-4ef3-8c18-627591869d46" name="Exit" type="Code">
+    <subsheetid>d064a183-869e-4269-af78-e8278fcf2a75</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>20d7732d-8c92-4c00-a602-e650d104a383</onsuccess>
+    <code><![CDATA[
+	Dim app As Object = GetInstance(handle)
+	app.NormalTemplate.Saved = True
+	app.Quit()
+
+	Me.HandleMap.Remove(handle)
+	Me.InstanceMap.Remove(app)]]></code>
+  </stage>
+  <stage stageid="5aee7da4-09aa-4a84-8b38-0c219d10a84c" name="handle" type="Data">
+    <subsheetid>d064a183-869e-4269-af78-e8278fcf2a75</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="76d84196-a3f8-438d-87ca-8bbb5a150385" name="Close" type="SubSheetInfo">
+    <subsheetid>a12d6007-5275-4a01-a53e-1fe566ccb6eb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ca2a96a4-4be4-46a3-bf43-ad0b1fd688d1" name="Start" type="Start">
+    <subsheetid>a12d6007-5275-4a01-a53e-1fe566ccb6eb</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="documentname" stage="documentname" />
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>925e7711-a825-4be7-8a2b-13cc2b3f6458</onsuccess>
+  </stage>
+  <stage stageid="bd446e30-85c5-4bd8-baec-09874a164871" name="End" type="End">
+    <subsheetid>a12d6007-5275-4a01-a53e-1fe566ccb6eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="925e7711-a825-4be7-8a2b-13cc2b3f6458" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>a12d6007-5275-4a01-a53e-1fe566ccb6eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>98b463cd-ae0f-4752-917d-0846f7f9d1d2</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="98b463cd-ae0f-4752-917d-0846f7f9d1d2" name="Close" type="Code">
+    <subsheetid>a12d6007-5275-4a01-a53e-1fe566ccb6eb</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+    </inputs>
+    <onsuccess>bd446e30-85c5-4bd8-baec-09874a164871</onsuccess>
+    <code><![CDATA[	
+	Dim doc As Object = GetDocument(handle,documentname)
+	doc.Saved = True
+	doc.Close()]]></code>
+  </stage>
+  <stage stageid="79711364-a2bd-434e-a183-7cbc2f61e54e" name="handle" type="Data">
+    <subsheetid>a12d6007-5275-4a01-a53e-1fe566ccb6eb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b32ff547-580d-4801-b3f1-a474b288e66a" name="documentname" type="Data">
+    <subsheetid>a12d6007-5275-4a01-a53e-1fe566ccb6eb</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>75</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f44241e2-c1fa-41ec-94d2-ce04c3004b8c" name="Type Text" type="SubSheetInfo">
+    <subsheetid>ec22d5e7-f140-425a-bbaa-7c1da03813c4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="829e6b71-8bac-474c-affb-8854abe5b326" name="Start" type="Start">
+    <subsheetid>ec22d5e7-f140-425a-bbaa-7c1da03813c4</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="text" stage="text" />
+      <input type="text" name="documentname" stage="documentname" />
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>e1086e24-ae1f-4ce6-81c2-4422ef6fa002</onsuccess>
+  </stage>
+  <stage stageid="5b094fdf-6ef3-4846-b25c-0ee209e038de" name="End" type="End">
+    <subsheetid>ec22d5e7-f140-425a-bbaa-7c1da03813c4</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="e1086e24-ae1f-4ce6-81c2-4422ef6fa002" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>ec22d5e7-f140-425a-bbaa-7c1da03813c4</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>fcf56391-2a51-4e70-9930-2f19ac9223c3</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="fcf56391-2a51-4e70-9930-2f19ac9223c3" name="TypeText" type="Code">
+    <subsheetid>ec22d5e7-f140-425a-bbaa-7c1da03813c4</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="text" name="text" expr="[text]" />
+    </inputs>
+    <onsuccess>5b094fdf-6ef3-4846-b25c-0ee209e038de</onsuccess>
+    <code><![CDATA[
+	GetInstance(handle).Selection.TypeText(text)]]></code>
+  </stage>
+  <stage stageid="4473d616-1d96-4946-8abf-c0c68033e5c1" name="handle" type="Data">
+    <subsheetid>ec22d5e7-f140-425a-bbaa-7c1da03813c4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="94b0135e-de95-421b-a5db-07f6fc22b5d8" name="documentname" type="Data">
+    <subsheetid>ec22d5e7-f140-425a-bbaa-7c1da03813c4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>75</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="30c13569-5e52-4d2b-9d3f-30764a391f99" name="text" type="Data">
+    <subsheetid>ec22d5e7-f140-425a-bbaa-7c1da03813c4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>120</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="54d32e12-69ab-45d3-adc4-74cb220667a1" name="Create Document" type="SubSheetInfo">
+    <subsheetid>df9a2d09-7817-4c60-9dfd-db0023481f74</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="9e417d18-2b1b-442c-9c74-e1e8cbc9684d" name="Start" type="Start">
+    <subsheetid>df9a2d09-7817-4c60-9dfd-db0023481f74</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>8d4245f6-0d86-4a8d-b932-65500682f43d</onsuccess>
+  </stage>
+  <stage stageid="668ccf5c-2a61-4b7c-b9b7-f60c6d1a8dfb" name="End" type="End">
+    <subsheetid>df9a2d09-7817-4c60-9dfd-db0023481f74</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="documentname" stage="documentname" />
+    </outputs>
+  </stage>
+  <stage stageid="8d4245f6-0d86-4a8d-b932-65500682f43d" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>df9a2d09-7817-4c60-9dfd-db0023481f74</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>cdeffd66-9688-46dc-91b2-6ddf3d8476c7</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="cdeffd66-9688-46dc-91b2-6ddf3d8476c7" name="CreateDocument" type="Code">
+    <subsheetid>df9a2d09-7817-4c60-9dfd-db0023481f74</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="documentname" stage="documentname" />
+    </outputs>
+    <onsuccess>668ccf5c-2a61-4b7c-b9b7-f60c6d1a8dfb</onsuccess>
+    <code><![CDATA[
+	Dim doc as Object = GetInstance(handle).Documents.Add()
+	documentname = doc.Name
+	doc.Activate()
+]]></code>
+  </stage>
+  <stage stageid="55507265-dccf-498b-b457-9fa3230c8ad8" name="handle" type="Data">
+    <subsheetid>df9a2d09-7817-4c60-9dfd-db0023481f74</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="96a1c94c-4176-4965-aeec-43ccd66ca797" name="documentname" type="Data">
+    <subsheetid>df9a2d09-7817-4c60-9dfd-db0023481f74</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>75</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="aa7025db-88e7-4128-912e-878929e649bf" name="Update Bookmark" type="SubSheetInfo">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="06b932ee-3310-4628-823f-265d0ef63d38" name="Start" type="Start">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Bookmark name" stage="name" />
+      <input type="text" name="Text" stage="value" />
+      <input type="text" name="documentname" stage="documentname" />
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>e87e8a9b-c20a-469f-a077-2b6ae1cd52a4</onsuccess>
+  </stage>
+  <stage stageid="4568f576-e587-46d1-9613-8455000361ee" name="End" type="End">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="e87e8a9b-c20a-469f-a077-2b6ae1cd52a4" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>41afaa16-ddea-4385-9530-07f94ee95532</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="41afaa16-ddea-4385-9530-07f94ee95532" name="UpdateBookmark" type="Code">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="text" name="name" expr="[name]" />
+      <input type="text" name="value" expr="[value]" />
+    </inputs>
+    <onsuccess>4568f576-e587-46d1-9613-8455000361ee</onsuccess>
+    <code><![CDATA[
+	Dim doc as Object = GetDocument(handle,documentname)
+	If doc.Bookmarks.Exists(name) Then
+		doc.Bookmarks.Item(name).Range.Text = value
+	End If]]></code>
+  </stage>
+  <stage stageid="ad290b27-e3a5-4ad5-b352-eff94acc7de8" name="handle" type="Data">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5b28714a-4da4-4baf-8116-a19d736d56c4" name="value" type="Data">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>165</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="294bedbf-1386-4233-b599-e8e5d50121bc" name="name" type="Data">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>120</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="422f53fe-cfb8-44ab-8628-5e7192d8a14b" name="documentname" type="Data">
+    <subsheetid>658b8a32-bfce-4df2-bfdc-a9525bc2979e</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>75</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6f3f2cc6-4bd9-456e-9857-dc71ccafdcb9" name="Set Current Instance" type="SubSheetInfo">
+    <subsheetid>89550223-4597-48e5-a1c2-c61c726899cf</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ef5caa1c-ba0b-4e25-ba69-081e9386a4f3" name="Start" type="Start">
+    <subsheetid>89550223-4597-48e5-a1c2-c61c726899cf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The handle for the instance which should become the current instance" stage="handle" />
+    </inputs>
+    <onsuccess>215a6e49-5725-401b-9f3f-d1fd9261dac7</onsuccess>
+  </stage>
+  <stage stageid="c0b115d4-6eff-4088-9356-8abf9d79ccc1" name="End" type="End">
+    <subsheetid>89550223-4597-48e5-a1c2-c61c726899cf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>0</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="215a6e49-5725-401b-9f3f-d1fd9261dac7" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>89550223-4597-48e5-a1c2-c61c726899cf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>c0b115d4-6eff-4088-9356-8abf9d79ccc1</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="4df855d7-0ceb-42e9-9fe3-c4a6de4b72e8" name="Note1" type="Note">
+    <subsheetid>89550223-4597-48e5-a1c2-c61c726899cf</subsheetid>
+    <loginhibit />
+    <narrative>Don't need to anything - a side-effect of the check is to set the current instance... makes it simple.</narrative>
+    <displayx>165</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="d355c6b1-7c4f-4842-99d8-2e2ba88a3934" name="Attach Instance" type="SubSheetInfo">
+    <subsheetid>fab67da7-2774-4aba-b65c-e3cc6c20dac5</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="2a0baf69-393d-4338-91c2-599bb8f9dd88" name="Start" type="Start">
+    <subsheetid>fab67da7-2774-4aba-b65c-e3cc6c20dac5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="File Name" narrative="The full path and filename of the document that the instance should attach to, empty indicates that the topmost Word instance be attached to" stage="Filename" />
+    </inputs>
+    <onsuccess>cf413a56-3b39-4024-9358-e45c4cb1270f</onsuccess>
+  </stage>
+  <stage stageid="080da51f-78bc-4c03-a069-fba8ce7216c3" name="End" type="End">
+    <subsheetid>fab67da7-2774-4aba-b65c-e3cc6c20dac5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="number" name="handle" narrative="The handle to the newly created instance, attached to either an existing Word window or a new one." stage="handle" />
+    </outputs>
+  </stage>
+  <stage stageid="2d9ef69e-28d3-4c3d-8c66-ad48abf1c9bd" name="Filename" type="Data">
+    <subsheetid>fab67da7-2774-4aba-b65c-e3cc6c20dac5</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="7538631d-fe66-4fa5-9087-9757b9baa750" name="handle" type="Data">
+    <subsheetid>fab67da7-2774-4aba-b65c-e3cc6c20dac5</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>15</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="cf413a56-3b39-4024-9358-e45c4cb1270f" name="AttachInstance" type="Code">
+    <subsheetid>fab67da7-2774-4aba-b65c-e3cc6c20dac5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-90</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="filename" expr="[Filename]" />
+    </inputs>
+    <outputs>
+      <output type="number" name="handle" stage="handle" />
+    </outputs>
+    <onsuccess>080da51f-78bc-4c03-a069-fba8ce7216c3</onsuccess>
+    <code><![CDATA[
+If filename = "" Then
+	handle = GetHandle(GetObject(, "Word.Application"))
+Else
+	handle = GetHandle(GetObject(filename).Application)
+End If]]></code>
+  </stage>
+  <stage stageid="bb83c823-90bc-4da3-9b03-b1bfae7ffe16" name="Detach Instance" type="SubSheetInfo">
+    <subsheetid>8b161e34-9d3a-4120-a6ef-47fa0d4fb3ae</subsheetid>
+    <narrative>Detaches from the Word instance with the given handle, removing all references within this business object.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="3086e1fc-ae22-4963-93f2-743021835c1d" name="Start" type="Start">
+    <subsheetid>8b161e34-9d3a-4120-a6ef-47fa0d4fb3ae</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-15</displayx>
+    <displayy>-135</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" narrative="The handle to the instance to be detached from" stage="handle" />
+    </inputs>
+    <onsuccess>10611a26-c805-4e33-b3ba-4be3ffb5ae66</onsuccess>
+  </stage>
+  <stage stageid="936fb37c-767b-4c3b-9b5e-57b36515bba6" name="End" type="End">
+    <subsheetid>8b161e34-9d3a-4120-a6ef-47fa0d4fb3ae</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="cfdae8d9-4e29-4353-a17b-4c5a724fa96e" name="handle" type="Data">
+    <subsheetid>8b161e34-9d3a-4120-a6ef-47fa0d4fb3ae</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="10611a26-c805-4e33-b3ba-4be3ffb5ae66" name="DetachInstance" type="Code">
+    <subsheetid>8b161e34-9d3a-4120-a6ef-47fa0d4fb3ae</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-15</displayx>
+    <displayy>-90</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>936fb37c-767b-4c3b-9b5e-57b36515bba6</onsuccess>
+    <code><![CDATA[Dim app As Object = GetInstance(handle)
+HandleMap.Remove(CInt(handle))
+InstanceMap.Remove(app)
+If app Is CurrentInstance Then CurrentInstance = Nothing
+Marshal.ReleaseComObject(app)]]></code>
+  </stage>
+  <stage stageid="f1a76547-26a8-4bbb-876c-12108d44f5f5" name="handle" type="Data">
+    <subsheetid>89550223-4597-48e5-a1c2-c61c726899cf</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="744e462f-ed5d-4004-afe9-a69ae3cddf27" name="Get Highlighted Text" type="SubSheetInfo">
+    <subsheetid>ab5706df-5945-47c6-ad85-98b64e6966f8</subsheetid>
+    <narrative>Returns the documents highlighted text as a collection</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="3fa2a732-65ad-412e-8dfc-797a10a1dd38" name="End" type="End">
+    <subsheetid>ab5706df-5945-47c6-ad85-98b64e6966f8</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="collection" name="highlighted text" stage="highlighted text" />
+    </outputs>
+  </stage>
+  <stage stageid="d60af1f9-c084-491f-b44f-99c1c5fe61b4" name="Get Highlighted Text" type="Code">
+    <subsheetid>ab5706df-5945-47c6-ad85-98b64e6966f8</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+    </inputs>
+    <outputs>
+      <output type="collection" name="highlighted text" stage="highlighted text" />
+    </outputs>
+    <onsuccess>3fa2a732-65ad-412e-8dfc-797a10a1dd38</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim r As Object = d.Range
+Dim i As Integer
+
+Dim dt As New System.Data.DataTable()
+Dim dr As System.Data.DataRow
+
+dt.Columns.Add("text", GetType(String))
+dt.Columns.Add("highlight index", GetType(Integer))
+
+r.Find.Highlight = true
+r.Find.Forward = True
+
+Do While r.Find.Execute
+	If r.HighlightColorIndex <> 0 Then
+		dr = dt.NewRow()
+		dr("text") = r.Text
+		dr("highlight index") = r.HighlightColorIndex
+		dt.Rows.Add(dr)
+	End If
+	i = r.End
+	r.Start = i
+Loop
+highlighted_text = dt]]></code>
+  </stage>
+  <stage stageid="efa512ec-3a71-4ae2-8fea-10c01497d1ad" name="handle" type="Data">
+    <subsheetid>ab5706df-5945-47c6-ad85-98b64e6966f8</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9014f0b7-d7ec-4f10-9fe4-9294d5c469ac" name="Start" type="Start">
+    <subsheetid>ab5706df-5945-47c6-ad85-98b64e6966f8</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+    </inputs>
+    <onsuccess>d60af1f9-c084-491f-b44f-99c1c5fe61b4</onsuccess>
+  </stage>
+  <stage stageid="19a7cc99-e574-4f93-a220-3f94df6dcb00" name="document name" type="Data">
+    <subsheetid>ab5706df-5945-47c6-ad85-98b64e6966f8</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="41cca25a-0352-483f-bd0d-210348dddccf" name="highlighted text" type="Collection">
+    <subsheetid>ab5706df-5945-47c6-ad85-98b64e6966f8</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>90</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>60</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>collection</datatype>
+    <private />
+    <alwaysinit />
+    <collectioninfo>
+      <field name="text" type="text" />
+      <field name="highlight index" type="number" description="A value from from the wdColor enumeration" />
+    </collectioninfo>
+  </stage>
+  <stage stageid="faba3574-835f-426f-babd-7741f20c08ef" name="Replace Highlighted Text" type="SubSheetInfo">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <narrative>Searches for and replaces highlighted text</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="10f02379-dc0a-4fb5-8107-75333fd04af6" name="End" type="End">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="1750861c-714e-4fd9-a7ad-babb2bc8735b" name="handle" type="Data">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1c605ebc-3335-451b-a024-96310e159f3d" name="Start" type="Start">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+      <input type="text" name="current text" stage="current text" />
+      <input type="number" name="current highlight" stage="current highlight" />
+      <input type="text" name="new text" stage="new text" />
+      <input type="number" name="new highlight" stage="new highlight" />
+      <input type="flag" name="new bold" stage="new bold" />
+    </inputs>
+    <onsuccess>86ff3b1e-b8e7-41aa-81c8-c6b731c9783d</onsuccess>
+  </stage>
+  <stage stageid="478dfc3b-afab-4b3d-b893-d63b17652148" name="document name" type="Data">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2480b35b-c034-4e1f-8fee-05f04f234f8c" name="current text" type="Data">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c4cb5e60-a090-41e5-945a-64a46b4fc815" name="current highlight" type="Data">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>90</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="60806e60-b1df-4318-9475-7a638c227a47" name="new text" type="Data">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>165</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a40255d1-e872-4311-b2d8-2e2dfda8bdde" name="new highlight" type="Data">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>135</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="86ff3b1e-b8e7-41aa-81c8-c6b731c9783d" name="Replace Highlighted Text" type="Code">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+      <input type="text" name="current text" expr="[current text]" />
+      <input type="number" name="current highlight" expr="[current highlight]" />
+      <input type="text" name="new text" expr="[new text]" />
+      <input type="number" name="new highlight" expr="[new highlight]" />
+      <input type="flag" name="new bold" expr="[new bold]" />
+    </inputs>
+    <onsuccess>10f02379-dc0a-4fb5-8107-75333fd04af6</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim r As Object = d.Range
+Dim i As Integer
+
+r.Find.Highlight = true
+r.Find.Forward = True
+
+Do While r.Find.Execute(current_text)
+	If r.HighlightColorIndex = current_highlight Then
+		r.Text = new_text
+		r.HighlightColorIndex = CInt(new_highlight)
+		r.Bold=new_bold
+	End If
+	i = r.End
+	r.Start = i
+Loop]]></code>
+  </stage>
+  <stage stageid="234fee0c-5b96-4829-be83-f34ff671c61e" name="new bold" type="Data">
+    <subsheetid>8e6deaaf-17ce-4784-b335-a9405da05140</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>210</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>False</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9a6342b6-1b6c-467f-970c-ae638d0dc946" name="Select All" type="SubSheetInfo">
+    <subsheetid>e945fdd1-12ee-49a3-828b-f210f597b9ea</subsheetid>
+    <narrative>Selects the entire document</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="32c7e893-ade6-4c28-8878-b0b6c201c420" name="End" type="End">
+    <subsheetid>e945fdd1-12ee-49a3-828b-f210f597b9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="f292c519-969f-48ca-a11a-b32031d9015b" name="handle" type="Data">
+    <subsheetid>e945fdd1-12ee-49a3-828b-f210f597b9ea</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5c3d29d4-83e1-4c5c-9d14-e4b698c6a498" name="Start" type="Start">
+    <subsheetid>e945fdd1-12ee-49a3-828b-f210f597b9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+    </inputs>
+    <onsuccess>71b6f8f9-6acb-4a3e-a7a5-5938100e9139</onsuccess>
+  </stage>
+  <stage stageid="7e4a9137-bdd0-49c3-a19f-a8bae90a3bd3" name="document name" type="Data">
+    <subsheetid>e945fdd1-12ee-49a3-828b-f210f597b9ea</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="71b6f8f9-6acb-4a3e-a7a5-5938100e9139" name="Select All" type="Code">
+    <subsheetid>e945fdd1-12ee-49a3-828b-f210f597b9ea</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+    </inputs>
+    <onsuccess>32c7e893-ade6-4c28-8878-b0b6c201c420</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+
+d.Select
+
+d = Nothing]]></code>
+  </stage>
+  <stage stageid="fc588eee-d842-46c9-b230-634378015cc6" name="Copy to Clipboard" type="SubSheetInfo">
+    <subsheetid>0ad7469f-a55c-48de-9ec9-7b3b429c91b1</subsheetid>
+    <narrative>Copies the current selection on to the clipboard</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ef78d8f3-3153-45b1-8714-b95142c7d2b9" name="End" type="End">
+    <subsheetid>0ad7469f-a55c-48de-9ec9-7b3b429c91b1</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="3c1ca358-cb83-4f00-9bf5-ddf03a34149a" name="handle" type="Data">
+    <subsheetid>0ad7469f-a55c-48de-9ec9-7b3b429c91b1</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f4eb6834-0cbe-4f99-8bb0-6c25173f85aa" name="Start" type="Start">
+    <subsheetid>0ad7469f-a55c-48de-9ec9-7b3b429c91b1</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+    </inputs>
+    <onsuccess>094bc875-98bf-40d7-930d-c118bff53af6</onsuccess>
+  </stage>
+  <stage stageid="8f073f68-b07c-4837-91ce-37c063f71401" name="document name" type="Data">
+    <subsheetid>0ad7469f-a55c-48de-9ec9-7b3b429c91b1</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="094bc875-98bf-40d7-930d-c118bff53af6" name="Copy to Clipboard" type="Code">
+    <subsheetid>0ad7469f-a55c-48de-9ec9-7b3b429c91b1</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+    </inputs>
+    <onsuccess>ef78d8f3-3153-45b1-8714-b95142c7d2b9</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim w As Object = d.Application
+Dim s As Object = w.Selection
+
+If s IsNot Nothing Then s.Copy
+
+d = Nothing
+w = Nothing
+s = Nothing]]></code>
+  </stage>
+  <stage stageid="c2e0189a-f373-4e16-8ac9-b3f50c3928ef" name="Paste from Clipboard" type="SubSheetInfo">
+    <subsheetid>e3194549-4702-4196-8e84-02c9414289f2</subsheetid>
+    <narrative>Pastes the contents of the clipboard into the document</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="cc3026b3-8726-4034-9304-aa303f869095" name="End" type="End">
+    <subsheetid>e3194549-4702-4196-8e84-02c9414289f2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="c102344a-5e52-4389-acd8-9d3df3011a36" name="handle" type="Data">
+    <subsheetid>e3194549-4702-4196-8e84-02c9414289f2</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f225a8a7-74c0-4baf-abd1-e4619d1cd9dc" name="Start" type="Start">
+    <subsheetid>e3194549-4702-4196-8e84-02c9414289f2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+    </inputs>
+    <onsuccess>32689787-cfad-4f85-98db-9101ef103d8b</onsuccess>
+  </stage>
+  <stage stageid="414b8866-2d52-4971-aab5-a48d66411bf0" name="document name" type="Data">
+    <subsheetid>e3194549-4702-4196-8e84-02c9414289f2</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="32689787-cfad-4f85-98db-9101ef103d8b" name="Paste from Clipboard" type="Code">
+    <subsheetid>e3194549-4702-4196-8e84-02c9414289f2</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+    </inputs>
+    <onsuccess>cc3026b3-8726-4034-9304-aa303f869095</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim w As Object = d.Application
+
+w.Selection.Paste
+
+d = Nothing
+w = Nothing]]></code>
+  </stage>
+  <stage stageid="c9f4e132-f333-46bd-9f33-bd08364ca098" name="Clear Clipboard" type="SubSheetInfo">
+    <subsheetid>479d48e5-45be-4252-99e6-7685eacb95f0</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="c63bcd84-f4b9-4db7-a9ca-2d27ed62ea2c" name="Start" type="Start">
+    <subsheetid>479d48e5-45be-4252-99e6-7685eacb95f0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>d6bc499e-db0e-4204-94f7-060f8b728596</onsuccess>
+  </stage>
+  <stage stageid="cae61485-5711-4b5a-b35a-cc2cc49dcecd" name="End" type="End">
+    <subsheetid>479d48e5-45be-4252-99e6-7685eacb95f0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="d6bc499e-db0e-4204-94f7-060f8b728596" name="Clear" type="Code">
+    <subsheetid>479d48e5-45be-4252-99e6-7685eacb95f0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <onsuccess>cae61485-5711-4b5a-b35a-cc2cc49dcecd</onsuccess>
+    <code><![CDATA[
+My.Computer.Clipboard.Clear]]></code>
+  </stage>
+  <stage stageid="5b918aa9-d185-4273-8d17-322bfcb06ab4" name="Find Text" type="SubSheetInfo">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <narrative>Searches the document for the given text</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="9fa6746a-2e54-4364-987a-1c82aca0bfdc" name="End" type="End">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="flag" name="found" stage="found" />
+      <output type="text" name="output" stage="Output" />
+    </outputs>
+  </stage>
+  <stage stageid="44e131e3-1dd8-4ae7-ac12-119b805fb8d0" name="handle" type="Data">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5322d24f-f105-4817-b328-580613831a00" name="Start" type="Start">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+      <input type="text" name="text" stage="text" />
+      <input type="flag" name="match case" stage="match case" />
+      <input type="flag" name="match whole word" stage="match whole word" />
+    </inputs>
+    <onsuccess>1f2d6c14-b8c0-4895-8791-15dc1c4b8cd3</onsuccess>
+  </stage>
+  <stage stageid="b294a47f-4ad7-4cf9-a898-13aefa7c9f0f" name="document name" type="Data">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="1f2d6c14-b8c0-4895-8791-15dc1c4b8cd3" name="Find Text" type="Code">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+      <input type="text" name="text" expr="[text]" />
+      <input type="flag" name="match case" expr="[match case]" />
+      <input type="flag" name="match whole word" expr="[match whole word]" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="found" stage="found" />
+    </outputs>
+    <onsuccess>9fa6746a-2e54-4364-987a-1c82aca0bfdc</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim w As Object = d.Application
+Dim s As Object = w.Selection
+Dim f As Object = s.Find
+
+Try
+
+f.ClearFormatting
+With f
+	.Text = Text
+	.Replacement.Text = ""
+	.Forward = True
+	.Wrap = 1 'wdFindContinue
+	.Format = False
+	.MatchCase = match_case
+	.MatchWholeWord = match_whole_word
+	.MatchWildcards = False
+	.MatchSoundsLike = False
+	.MatchAllWordForms = False
+End With
+found = f.Execute
+
+Catch ex As Exception
+
+found = False
+
+Finally
+
+d = Nothing
+w = Nothing
+s = Nothing
+f = Nothing
+
+End try]]></code>
+  </stage>
+  <stage stageid="169d67d4-b8ae-48c2-a693-6a4cb4ef2cf4" name="text" type="Data">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="934d6430-60d8-4676-b570-e3be9639641c" name="found" type="Data">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>135</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c53ac88a-5097-4cd0-8962-e04e6ba421bf" name="match case" type="Data">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>False</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="18a5ce24-7703-42c9-9c67-36c7f5acc805" name="match whole word" type="Data">
+    <subsheetid>a46a3a18-37e6-4658-bf90-5612c2db5da4</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>90</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>False</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="cc529358-b060-4eec-b382-563e4dd595cb" name="Select Next Cell" type="SubSheetInfo">
+    <subsheetid>014a9077-47d7-46c4-949a-9dd622e2aa55</subsheetid>
+    <narrative>Moves the cursor to the table cell n steps away from the current cell. A positive number of steps moves forward and a negative number moves backwards.</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="12001300-6faa-4829-99f6-61df86a10e66" name="End" type="End">
+    <subsheetid>014a9077-47d7-46c4-949a-9dd622e2aa55</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="flag" name="selected" stage="selected" />
+    </outputs>
+  </stage>
+  <stage stageid="3beae3c8-e083-4bcd-996b-733ab9676289" name="handle" type="Data">
+    <subsheetid>014a9077-47d7-46c4-949a-9dd622e2aa55</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="75895ee8-9f3a-4bbc-993e-783fd8679de6" name="Start" type="Start">
+    <subsheetid>014a9077-47d7-46c4-949a-9dd622e2aa55</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+      <input type="number" name="steps" narrative="Optional, positive number to move forward, negative to move back, default 1." stage="steps" />
+    </inputs>
+    <onsuccess>42ed0356-4769-4b34-a449-4fbe0a21922b</onsuccess>
+  </stage>
+  <stage stageid="9c875518-2eef-4c5b-8040-004573505f3e" name="document name" type="Data">
+    <subsheetid>014a9077-47d7-46c4-949a-9dd622e2aa55</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="4b10f2e8-1f7b-44ae-9d88-ac58bd3f2a22" name="selected" type="Data">
+    <subsheetid>014a9077-47d7-46c4-949a-9dd622e2aa55</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>90</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="42ed0356-4769-4b34-a449-4fbe0a21922b" name="Select Next Cell" type="Code">
+    <subsheetid>014a9077-47d7-46c4-949a-9dd622e2aa55</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+      <input type="number" name="steps" expr="[steps]" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="selected" stage="selected" />
+    </outputs>
+    <onsuccess>12001300-6faa-4829-99f6-61df86a10e66</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim w As Object = d.Application
+Dim s As Object = Nothing
+Dim c As Object = Nothing
+Dim c1 As Object = Nothing
+Dim i As Integer
+
+Try
+If steps < 0 Then
+	For i = steps To -1
+		s = w.Selection
+		c = s.Cells
+		If c.Count = 0 Then
+			selected = False
+			Exit Sub
+		ElseIf c(1).Previous Is Nothing Then
+			selected = False
+			Exit Sub
+		Else
+			c(1).Previous.Select
+			If c1 Is Nothing Then c1 = c(1)
+		End If
+	Next
+Else
+	For i = 1 To steps
+		s = w.Selection
+		c = s.Cells
+		If c.Count = 0 Then
+			selected = False
+			Exit Sub
+		ElseIf c(1).Next Is Nothing Then
+			selected = False
+			Exit Sub
+		Else
+			c(1).Next.Select
+			If c1 Is Nothing Then c1 = c(1)
+		End If
+	Next
+End If
+
+c1 = Nothing
+selected = True
+
+Catch ex As Exception
+	selected = False
+Finally
+	If c1 IsNot Nothing Then
+		c1.Select
+	End If
+	d = Nothing
+	w = Nothing
+	s = Nothing
+	c = Nothing
+	c1 = Nothing
+End try]]></code>
+  </stage>
+  <stage stageid="96975d1f-c613-48e6-b917-47041ee8da2c" name="steps" type="Data">
+    <subsheetid>014a9077-47d7-46c4-949a-9dd622e2aa55</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>1</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="da8e46d1-b4b9-40b8-96d3-d5f50d7f4c89" name="Set Selected Cell Text" type="SubSheetInfo">
+    <subsheetid>e5c26c59-2398-4789-8c68-a82d3e675364</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="d93f9a85-6397-463f-a7cc-793c62f0afce" name="End" type="End">
+    <subsheetid>e5c26c59-2398-4789-8c68-a82d3e675364</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="e765aafd-6194-4dde-8353-5dca090372ef" name="handle" type="Data">
+    <subsheetid>e5c26c59-2398-4789-8c68-a82d3e675364</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="e200c448-4a17-47ce-a208-ba02c896eb8a" name="Start" type="Start">
+    <subsheetid>e5c26c59-2398-4789-8c68-a82d3e675364</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+      <input type="text" name="text" stage="text" />
+      <input type="flag" name="append" narrative="Optional, default False will overwrite." stage="append" />
+    </inputs>
+    <onsuccess>5032655f-d60c-4fd4-8247-b167d88f2bda</onsuccess>
+  </stage>
+  <stage stageid="5b309234-72f0-479a-871b-51dda5f6075c" name="document name" type="Data">
+    <subsheetid>e5c26c59-2398-4789-8c68-a82d3e675364</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5032655f-d60c-4fd4-8247-b167d88f2bda" name="Set Cell" type="Code">
+    <subsheetid>e5c26c59-2398-4789-8c68-a82d3e675364</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+      <input type="text" name="text" expr="[text]" />
+      <input type="flag" name="append" expr="[append]" />
+    </inputs>
+    <onsuccess>d93f9a85-6397-463f-a7cc-793c62f0afce</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim w As Object = d.Application
+Dim s As Object = Nothing
+Dim cs As Object = Nothing
+Dim c As Object = Nothing
+Dim r As Object = Nothing
+
+Try
+
+s = w.Selection
+cs = s.Cells
+If cs.Count = 1 Then
+	c = cs(1)
+	r = c.Range
+	If append Then
+		r.Text = r.Text.Substring(0, r.Text.Length - 2) & text & r.Text.Substring(r.Text.Length - 2)
+	Else
+		r.Text = text
+	End If
+End If
+
+Catch ex As Exception
+	Throw ex
+Finally
+	d = Nothing
+	w = Nothing
+	s = Nothing
+	cs = Nothing
+	c = Nothing
+	r = Nothing
+End try]]></code>
+  </stage>
+  <stage stageid="213b47ae-d5b2-4c58-a0bb-967f877da779" name="text" type="Data">
+    <subsheetid>e5c26c59-2398-4789-8c68-a82d3e675364</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2fea1f6e-b9fd-48a4-975b-95eb357812ec" name="append" type="Data">
+    <subsheetid>e5c26c59-2398-4789-8c68-a82d3e675364</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>True</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="264c4c7c-6251-4383-9f3a-28559469d1e2" name="Select Next Field" type="SubSheetInfo">
+    <subsheetid>25894c29-7a40-4c69-8562-7b0ec251e307</subsheetid>
+    <narrative>Selects the next field in the document</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="058b4f33-fd12-422b-b45f-9604400b893e" name="End" type="End">
+    <subsheetid>25894c29-7a40-4c69-8562-7b0ec251e307</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="flag" name="selected" stage="selected" />
+    </outputs>
+  </stage>
+  <stage stageid="85c127b5-cf48-4914-a129-d36cc585c1ff" name="handle" type="Data">
+    <subsheetid>25894c29-7a40-4c69-8562-7b0ec251e307</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f94d5f5d-2027-44e7-8122-ed018c4bcaa0" name="Start" type="Start">
+    <subsheetid>25894c29-7a40-4c69-8562-7b0ec251e307</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+      <input type="number" name="steps" narrative="Optional, positive number to move forward, negative to move back, default 1." stage="steps" />
+    </inputs>
+    <onsuccess>2dc430f1-a3ee-4adb-a992-c153fbb04bca</onsuccess>
+  </stage>
+  <stage stageid="49b6201c-934e-4e16-98a3-3333ed61e186" name="document name" type="Data">
+    <subsheetid>25894c29-7a40-4c69-8562-7b0ec251e307</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="5639856e-1937-434a-bfee-927110122a21" name="selected" type="Data">
+    <subsheetid>25894c29-7a40-4c69-8562-7b0ec251e307</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>75</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="93b18a8f-6970-47eb-9c5f-ced62e36f10b" name="steps" type="Data">
+    <subsheetid>25894c29-7a40-4c69-8562-7b0ec251e307</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>15</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>1</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2dc430f1-a3ee-4adb-a992-c153fbb04bca" name="Select Next Field" type="Code">
+    <subsheetid>25894c29-7a40-4c69-8562-7b0ec251e307</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+      <input type="number" name="steps" expr="[steps]" />
+    </inputs>
+    <outputs>
+      <output type="flag" name="selected" stage="selected" />
+    </outputs>
+    <onsuccess>058b4f33-fd12-422b-b45f-9604400b893e</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim w As Object = d.Application
+Dim s As Object = w.Selection
+Dim f As Object = s.Find
+Dim wrap, count, which As Integer
+Dim forward as Boolean
+
+If steps < 0 Then
+	count = -1 * steps
+	wrap = 2
+	forward = False
+	which = 3
+Else
+	count = steps
+	wrap = 1
+	forward = True
+	which = 2
+End If
+
+Try
+
+s.GoTo(What:=7, Which:=which, Count:=count, Name:="")
+f.ClearFormatting
+With f
+	.Text = ""
+	.Replacement.Text = ""
+	.Forward = forward
+	.Wrap = wrap
+	.Format = False
+	.MatchCase = False
+	.MatchWholeWord = False
+	.MatchWildcards = False
+	.MatchSoundsLike = False
+	.MatchAllWordForms = False
+End With
+
+s.MoveRight(Unit:=1, Count:=1, Extend:=1)
+selected = True
+
+Catch ex As Exception
+
+selected = False
+
+Finally
+
+d = Nothing
+w = Nothing
+s = Nothing
+f = Nothing
+
+End try]]></code>
+  </stage>
+  <stage stageid="62da7c33-64e2-4cb4-b8f7-50742893de4a" name="Set Selected Checkbox" type="SubSheetInfo">
+    <subsheetid>0982104d-2763-42e8-a690-69c44d9a4046</subsheetid>
+    <narrative>Ticks or unticks the selected checkbox</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="510c9852-b8ac-4ff8-8e0c-7c8d13ed79c3" name="End" type="End">
+    <subsheetid>0982104d-2763-42e8-a690-69c44d9a4046</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="c24730d4-72ba-45f3-a565-5a2cdde3e197" name="handle" type="Data">
+    <subsheetid>0982104d-2763-42e8-a690-69c44d9a4046</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="a7894538-d76b-4e8f-9eba-4fdc810eb94a" name="Start" type="Start">
+    <subsheetid>0982104d-2763-42e8-a690-69c44d9a4046</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+      <input type="flag" name="checked" stage="checked" />
+    </inputs>
+    <onsuccess>2208ee1b-e132-49b8-8567-2c69be9f4e2b</onsuccess>
+  </stage>
+  <stage stageid="a9d8cd15-d588-429e-82f7-bede62d5d650" name="document name" type="Data">
+    <subsheetid>0982104d-2763-42e8-a690-69c44d9a4046</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2208ee1b-e132-49b8-8567-2c69be9f4e2b" name="Set Checkbox" type="Code">
+    <subsheetid>0982104d-2763-42e8-a690-69c44d9a4046</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+      <input type="flag" name="Checked" expr="[checked]" />
+    </inputs>
+    <onsuccess>510c9852-b8ac-4ff8-8e0c-7c8d13ed79c3</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim w As Object = d.Application
+Dim s As Object = Nothing
+Dim ffs As Object = Nothing
+Dim ff As Object = Nothing
+Dim cb As Object = Nothing
+
+Try
+
+s = w.Selection
+ffs = s.FormFields
+If ffs.Count = 1 Then
+	If ffs(1).Type = 71 Then 'wdFieldFormCheckBox
+		cb = ffs(1).CheckBox
+		cb.Value = checked
+	End If
+End If
+
+Catch ex As Exception
+	Throw ex
+Finally
+	d = Nothing
+	w = Nothing
+	s = Nothing
+	ffs = Nothing
+	ff = Nothing
+	cb = Nothing
+End try]]></code>
+  </stage>
+  <stage stageid="df9e9413-eefd-4eae-8129-9314da3eff69" name="checked" type="Data">
+    <subsheetid>0982104d-2763-42e8-a690-69c44d9a4046</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>flag</datatype>
+    <initialvalue>True</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="581ce51a-db6c-4a6c-9455-7047b2e58bdb" name="Get Footer Text" type="SubSheetInfo">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <narrative>Gets the text from the specified footer</narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="f07e9727-845e-4d3e-b035-79dd9c1a9e02" name="End" type="End">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="footer text" stage="footer text" />
+    </outputs>
+  </stage>
+  <stage stageid="e7505af8-12a1-48a0-9b29-5d53359af376" name="section" type="Data">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>1</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2ed14a06-174f-4565-be98-fea2aabfb137" name="footer" type="Data">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>1</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d2735c81-3c82-4c05-804d-dc66ad1d7a0f" name="handle" type="Data">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="d20473de-325e-4790-8adc-d4afa4a49f54" name="document name" type="Data">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="89da9cc4-334f-4e99-9348-64fea39e45ad" name="Get Footer text" type="Code">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="document name" expr="[document name]" />
+      <input type="number" name="section" expr="[section]" />
+      <input type="number" name="footer" expr="[footer]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="footer text" stage="footer text" />
+    </outputs>
+    <onsuccess>f07e9727-845e-4d3e-b035-79dd9c1a9e02</onsuccess>
+    <code><![CDATA[
+Dim d As Object = GetDocument(handle,document_name)
+Dim s As Object = Nothing
+Dim f As Object = Nothing
+Dim r As Object = Nothing
+
+Try
+
+s = d.Sections(section)
+f = s.Footers(footer)
+r = f.Range
+
+footer_text = r.text
+
+Catch ex As Exception
+	Throw ex
+Finally
+	d = Nothing
+	s = Nothing
+	f = Nothing
+	r = Nothing
+End try]]></code>
+  </stage>
+  <stage stageid="c9d0bd4e-e9b7-4677-b57b-025580e8a62a" name="Start" type="Start">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="document name" stage="document name" />
+      <input type="number" name="section" narrative="Default 1" stage="section" />
+      <input type="number" name="footer" narrative="Default 1" stage="footer" />
+    </inputs>
+    <onsuccess>89da9cc4-334f-4e99-9348-64fea39e45ad</onsuccess>
+  </stage>
+  <stage stageid="21cad55b-4aa5-44d6-8d55-8668a8e01267" name="footer text" type="Data">
+    <subsheetid>dc779662-1e7e-4438-b1c5-1106c851c3a3</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>90</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="bcb6879c-aec3-4f7e-b0c0-c7a05541c8ce" name="Add Table Row" type="SubSheetInfo">
+    <subsheetid>349117e1-607c-4bb6-a911-5074cb58aca0</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="87ab81a0-0173-4bb1-a341-070e1a8672d4" name="Start" type="Start">
+    <subsheetid>349117e1-607c-4bb6-a911-5074cb58aca0</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>-15</displayx>
+    <displayy>-75</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="documentname" stage="documentname" />
+      <input type="number" name="handle" stage="handle" />
+      <input type="number" name="Table Number" narrative="The number of the table within the word document" stage="Table Number" />
+    </inputs>
+    <onsuccess>8bf740f2-5429-4adb-ba49-4345536358a7</onsuccess>
+  </stage>
+  <stage stageid="11ef2aff-c240-4089-a3dc-133c850260fe" name="End" type="End">
+    <subsheetid>349117e1-607c-4bb6-a911-5074cb58aca0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-15</displayx>
+    <displayy>60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="8bf740f2-5429-4adb-ba49-4345536358a7" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>349117e1-607c-4bb6-a911-5074cb58aca0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-15</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>e352f349-79ec-4303-9fa0-d6b6329b9b3d</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="e352f349-79ec-4303-9fa0-d6b6329b9b3d" name="AddRow" type="Code">
+    <subsheetid>349117e1-607c-4bb6-a911-5074cb58aca0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-15</displayx>
+    <displayy>15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="number" name="TableNumber" expr="[Table Number]" />
+    </inputs>
+    <onsuccess>11ef2aff-c240-4089-a3dc-133c850260fe</onsuccess>
+    <code><![CDATA[
+Dim doc as Object = GetDocument(handle,documentname)
+doc.Tables.Item(TableNumber).Rows.Add()]]></code>
+  </stage>
+  <stage stageid="3146c42a-ee16-4654-8f47-cad56ba1c4a3" name="handle" type="Data">
+    <subsheetid>349117e1-607c-4bb6-a911-5074cb58aca0</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="0fa28223-5cbc-4b56-994f-735cb7ecf068" name="documentname" type="Data">
+    <subsheetid>349117e1-607c-4bb6-a911-5074cb58aca0</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9a9191e3-0b09-44ee-9fd3-96a452ae22de" name="Table Number" type="Data">
+    <subsheetid>349117e1-607c-4bb6-a911-5074cb58aca0</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="71eeff42-400a-4827-9003-61399bbd4ec0" name="Set Table Cell Value" type="SubSheetInfo">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="144acb7e-c0ea-4870-9588-1e1d12935a8e" name="End" type="End">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>120</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="75792fd8-d387-4be8-96b9-05b6a240d922" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>30</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>7bcad06a-9e42-4c2b-941c-fb66a76fde60</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="7bcad06a-9e42-4c2b-941c-fb66a76fde60" name="SetCell" type="Code">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>75</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="number" name="TableNumber" expr="[Table Number]" />
+      <input type="number" name="cellx" expr="[Cell x Number]" />
+      <input type="number" name="celly" expr="[Cell y Number]" />
+      <input type="text" name="CellValue" expr="[Value]" />
+    </inputs>
+    <onsuccess>144acb7e-c0ea-4870-9588-1e1d12935a8e</onsuccess>
+    <code><![CDATA[
+Dim doc as Object = GetDocument(handle,documentname)
+doc.Tables.Item(TableNumber).Cell(celly,cellx).Range.Text = CellValue]]></code>
+  </stage>
+  <stage stageid="35ed0ea5-a2a7-4a92-a3a7-c9c817bc77cb" name="handle" type="Data">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="0baad10b-f2e3-4d40-8a3b-0fc6b52c05c9" name="documentname" type="Data">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="536f5aa3-617c-440e-9b06-997207b34dc9" name="Table Number" type="Data">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>75</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="80acb91a-397b-48c7-bf67-f3a861b626e4" name="Cell x Number" type="Data">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="62ad7203-c6fb-4198-b33e-b9c3734eef55" name="Cell y Number" type="Data">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>135</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="c9c145f5-9d12-4e84-b025-08cc8532ed87" name="Value" type="Data">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="90489fc7-f75a-4870-9b72-b146515b522f" name="Start" type="Start">
+    <subsheetid>8ddb9b98-da89-468a-b5a4-5eedf5a204ee</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="documentname" stage="documentname" />
+      <input type="number" name="handle" stage="handle" />
+      <input type="number" name="Table Number" narrative="The number of the table within the document" stage="Table Number" />
+      <input type="number" name="Cell x Number" narrative="The x location number of the cell within the table (starts at 1)" stage="Cell x Number" />
+      <input type="number" name="Cell y Number" narrative="The y location number of the cell within the table (starts at 1)" stage="Cell y Number" />
+      <input type="text" name="Value" narrative="The value to set the cell to" stage="Value" />
+    </inputs>
+    <onsuccess>75792fd8-d387-4be8-96b9-05b6a240d922</onsuccess>
+  </stage>
+  <stage stageid="98bd4479-501c-4af6-87b3-0e44102b30f1" name="Get Table Cell Value" type="SubSheetInfo">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="20a32c47-0bd7-438f-8bc9-cd34a9258f92" name="Start" type="Start">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="documentname" stage="documentname" />
+      <input type="number" name="handle" stage="handle" />
+      <input type="number" name="Table Number" narrative="The number of the table within the document" stage="Table Number" />
+      <input type="number" name="Cell x Number" narrative="The x location number of the cell within the table (starts at 1)" stage="Cell x Number" />
+      <input type="number" name="Cell y Number" narrative="The y location number of the cell within the table (starts at 1)" stage="Cell y Number" />
+    </inputs>
+    <onsuccess>c02323b7-9f42-4a22-8729-fa65114b1a7b</onsuccess>
+  </stage>
+  <stage stageid="02dfaa1a-2b89-40d1-a9d8-ce53515dcc8a" name="End" type="End">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>165</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="Result" narrative="the cell contents" stage="result" />
+    </outputs>
+  </stage>
+  <stage stageid="c02323b7-9f42-4a22-8729-fa65114b1a7b" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>75</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>10df1c8e-f6b2-4f55-a8e0-a14ac4a94d02</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="10df1c8e-f6b2-4f55-a8e0-a14ac4a94d02" name="GetCell" type="Code">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>0</displayx>
+    <displayy>120</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="number" name="TableNumber" expr="[Table Number]" />
+      <input type="number" name="cellx" expr="[Cell x Number]" />
+      <input type="number" name="celly" expr="[Cell y Number]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="result" stage="result" />
+    </outputs>
+    <onsuccess>02dfaa1a-2b89-40d1-a9d8-ce53515dcc8a</onsuccess>
+    <code><![CDATA[
+Dim doc as Object = GetDocument(handle,documentname)
+result = doc.Tables.Item(TableNumber).Cell(celly,cellx).Range.Text]]></code>
+  </stage>
+  <stage stageid="876bd8c3-5bc4-4ce4-a349-8a07eea11a38" name="handle" type="Data">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>0</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="b16e011f-0e1b-45a0-8152-71f30d0a2bcc" name="documentname" type="Data">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ded21bd0-41c4-412f-b40f-b9c7946eea0e" name="result" type="Data">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>210</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="ff923bf0-e2c8-49bf-a547-9c4624ceebc4" name="Table Number" type="Data">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>60</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6752801f-8544-44e4-9eed-6159fe32331d" name="Cell x Number" type="Data">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>90</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="815b9e66-4c61-42fb-9b19-d3d7f86aeac4" name="Cell y Number" type="Data">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>120</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="e945f84a-1ffc-461e-a613-eafef2869044" name="Note2" type="Note">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <narrative>Inputs</narrative>
+    <displayx>-195</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Bold" color="000000" />
+  </stage>
+  <stage stageid="fa36ded4-4caa-4238-8abc-6350ee0c945e" name="Note2" type="Note">
+    <subsheetid>63dcd298-f559-4625-834f-f728c3391345</subsheetid>
+    <loginhibit />
+    <narrative>Outputs</narrative>
+    <displayx>-195</displayx>
+    <displayy>180</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Bold" color="000000" />
+  </stage>
+  <stage stageid="ae82d62f-d1b2-4af1-977a-db5619d47797" name="ExportPDF" type="SubSheetInfo">
+    <subsheetid>a54f1cbc-a023-4c2d-bf17-23169a3e685d</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="b5725bdb-4fb0-4666-9975-83186b793e2e" name="Start" type="Start">
+    <subsheetid>a54f1cbc-a023-4c2d-bf17-23169a3e685d</subsheetid>
+    <loginhibit />
+    <preconditions>
+      <condition narrative="" />
+    </preconditions>
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="File Name" stage="filename" />
+      <input type="text" name="documentname" stage="documentname" />
+      <input type="number" name="handle" stage="handle" />
+    </inputs>
+    <onsuccess>c4b70afa-f912-4ea4-91af-d05e2f73da34</onsuccess>
+  </stage>
+  <stage stageid="7df78cd1-d4d4-4f7f-b232-44da138f17fb" name="End" type="End">
+    <subsheetid>a54f1cbc-a023-4c2d-bf17-23169a3e685d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="c4b70afa-f912-4ea4-91af-d05e2f73da34" name="CheckInstanceHandle" type="SubSheet">
+    <subsheetid>a54f1cbc-a023-4c2d-bf17-23169a3e685d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+    </inputs>
+    <onsuccess>5f267c84-0795-4a87-900f-b5028d73ec8a</onsuccess>
+    <processid>293ea206-e215-4639-a1d8-85d6fad4c062</processid>
+  </stage>
+  <stage stageid="5f267c84-0795-4a87-900f-b5028d73ec8a" name="ExportPDF" type="Code">
+    <subsheetid>a54f1cbc-a023-4c2d-bf17-23169a3e685d</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="documentname" expr="[documentname]" />
+      <input type="text" name="filename" expr="[filename]" />
+    </inputs>
+    <onsuccess>7df78cd1-d4d4-4f7f-b232-44da138f17fb</onsuccess>
+    <code><![CDATA[Const wdExportFormatPDF As Integer = 17
+
+Dim doc as Object = GetDocument(handle,documentname)
+doc.ExportAsFixedFormat( _
+  OutputFileName:=filename, _
+  ExportFormat:=wdExportFormatPDF)
+]]></code>
+  </stage>
+  <stage stageid="3bddbd67-c3d7-46ef-a6e9-3f2c78c00fe3" name="filename" type="Data">
+    <subsheetid>a54f1cbc-a023-4c2d-bf17-23169a3e685d</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>90</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="540adde5-d599-4f0d-819b-1e875fcebcc7" name="documentname" type="Data">
+    <subsheetid>a54f1cbc-a023-4c2d-bf17-23169a3e685d</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="177dcef4-e724-431f-8af4-1eee1deecc09" name="handle" type="Data">
+    <subsheetid>a54f1cbc-a023-4c2d-bf17-23169a3e685d</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="09471599-6d12-4263-aed0-341e0438d5b2" name="Extract Text" type="SubSheetInfo">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="5fb224d9-a189-4e9e-99e6-e80e2ec6b019" name="Start" type="Start">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="document_name" stage="document name" />
+      <input type="number" name="handle" stage="handle" />
+      <input type="text" name="StartText" stage="Start" />
+      <input type="text" name="EndText" stage="End" />
+    </inputs>
+    <onsuccess>4a4ebd69-4a33-4eb9-9f63-3128967b0823</onsuccess>
+  </stage>
+  <stage stageid="312f26b9-24b1-4e89-819f-1d450dd057ef" name="End" type="End">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <outputs>
+      <output type="text" name="output" stage="Output" />
+    </outputs>
+  </stage>
+  <stage stageid="4a4ebd69-4a33-4eb9-9f63-3128967b0823" name="Extract Text" type="Code">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="document_name" expr="[document name]" />
+      <input type="number" name="handle" expr="[handle]" />
+      <input type="text" name="StartText" expr="[Start]" />
+      <input type="text" name="EndText" expr="[End]" />
+    </inputs>
+    <outputs>
+      <output type="text" name="output" stage="Output" />
+    </outputs>
+    <onsuccess>312f26b9-24b1-4e89-819f-1d450dd057ef</onsuccess>
+    <code><![CDATA[Dim firstTerm As String
+    Dim secondTerm As String
+    Dim documentText As String
+    Dim startPos As Long 'Stores the starting position of firstTerm
+    Dim stopPos As Long 'Stores the starting position of secondTerm based on first term's location
+    Dim nextPosition As Long 'The next position to search for the firstTerm
+Dim d As Object = GetDocument(handle,document_name)
+    nextPosition = 1
+    'First and Second terms as defined by your example.  Obviously, this will have to be more dynamic
+    'if you want to parse more than justpatientFirstname.
+    firstTerm = StartText
+    secondTerm = EndText
+    'Get all the document text and store it in a variable.
+    'Maximum limit of a string is 2 billion characters.
+    'So, hopefully your document is not bigger than that.  However, expect declining performance based on how big doucment is
+    documentText = d.Range(0, d.Range.End).Text
+    'Loop documentText till you can't find any more matching "terms"
+    Do Until nextPosition = 0
+        startPos = InStr(nextPosition, documentText, firstTerm, vbTextCompare)
+        stopPos = InStr(startPos, documentText, secondTerm, vbTextCompare)
+       nextPosition = InStr(stopPos, documentText, firstTerm, vbTextCompare)
+    Loop
+    output= Mid$(documentText, startPos + Len(firstTerm), stopPos - startPos - Len(secondTerm))
+]]></code>
+  </stage>
+  <stage stageid="4801932e-5462-44fc-852b-65c756009d2a" name="handle" type="Data">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>0</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="86abe247-786a-453e-a876-9c3e7bcbe788" name="document name" type="Data">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>30</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Tahoma" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="6e078bfa-2460-4708-8aca-ee77fb16a037" name="Output" type="Data">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>75</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="f6fa54c4-96d5-4ea6-88cf-6047457a11f5" name="Start" type="Data">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>105</displayy>
+    <displaywidth>120</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="97abe878-8f8f-4414-aed4-d67b85de3520" name="End" type="Data">
+    <subsheetid>5b7f8295-b245-476f-8198-c6ee56d99e38</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-165</displayx>
+    <displayy>150</displayy>
+    <displaywidth>90</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+</process>

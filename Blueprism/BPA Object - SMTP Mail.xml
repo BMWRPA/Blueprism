@@ -1,0 +1,341 @@
+﻿<process name="SMTP Mail" version="1.0" bpversion="5.0.10.0" narrative="" type="object" runmode="Exclusive" preferredid="c539ca99-3bfc-4a5b-8c75-1853010662ab">
+  <appdef>
+    <element name="Application Root">
+      <id>60cb4cbf-db8f-42e8-8f06-430d43267141</id>
+      <type>Application</type>
+      <basetype>Application</basetype>
+      <datatype>unknown</datatype>
+      <diagnose>False</diagnose>
+    </element>
+  </appdef>
+  <view>
+    <camerax>0</camerax>
+    <cameray>0</cameray>
+    <zoom version="2">1.25</zoom>
+  </view>
+  <preconditions />
+  <endpoint narrative="" />
+  <subsheet subsheetid="a7214c36-4bcf-43b9-b0bb-5dee4d0badaf" type="CleanUp" published="True">
+    <name>Clean Up</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <subsheet subsheetid="bd959668-cc8c-4678-819e-52369f0b7bc5" type="Normal" published="True">
+    <name>Send Mail</name>
+    <view>
+      <camerax>0</camerax>
+      <cameray>0</cameray>
+      <zoom version="2">1.25</zoom>
+    </view>
+  </subsheet>
+  <stage stageid="1110ffcd-4b56-401a-9b2e-9212f34ca349" name="Start" type="Start">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>6a4e1c52-d2d5-4f01-8351-078822a620e6</onsuccess>
+  </stage>
+  <stage stageid="6a4e1c52-d2d5-4f01-8351-078822a620e6" name="End" type="End">
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="3ceb41f1-441b-410e-a02c-5b3414cf876d" name="Stage1" type="ProcessInfo">
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <references>
+      <reference>System.Data.dll</reference>
+      <reference>System.Xml.dll</reference>
+      <reference>System.Drawing.dll</reference>
+    </references>
+    <imports>
+      <import>System</import>
+      <import>System.Drawing</import>
+    </imports>
+    <language>visualbasic</language>
+    <globalcode><![CDATA[]]></globalcode>
+    <code><![CDATA[]]></code>
+  </stage>
+  <stage stageid="8febf2e3-0d19-452e-bd6d-ef010e3eb22f" name="Clean Up" type="SubSheetInfo">
+    <subsheetid>a7214c36-4bcf-43b9-b0bb-5dee4d0badaf</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="32497a1f-5c3a-4390-8acd-8c1d120680d3" name="Start" type="Start">
+    <subsheetid>a7214c36-4bcf-43b9-b0bb-5dee4d0badaf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <onsuccess>ffb05e23-6903-4259-b418-313a8cd37c5d</onsuccess>
+  </stage>
+  <stage stageid="ffb05e23-6903-4259-b418-313a8cd37c5d" name="End" type="End">
+    <subsheetid>a7214c36-4bcf-43b9-b0bb-5dee4d0badaf</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="ea5bd357-faad-4eee-930e-2876315c2a68" name="Send Mail" type="SubSheetInfo">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <narrative>
+    </narrative>
+    <displayx>-195</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>150</displaywidth>
+    <displayheight>90</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="c08b398e-4667-4dd2-aecb-c467a7277882" name="Start" type="Start">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="From" stage="From" />
+      <input type="text" name="To" stage="To" />
+      <input type="text" name="Subject" stage="Subject" />
+      <input type="text" name="Body" stage="Body" />
+    </inputs>
+    <onsuccess>953a614a-b564-4a96-a295-eeb4bf75a47d</onsuccess>
+  </stage>
+  <stage stageid="413a3f58-302e-4247-8ee2-0165277dd303" name="End" type="End">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>90</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="a9f0d3ce-c115-4095-a852-607889987553" name="Note1" type="Note">
+    <subsheetid>a7214c36-4bcf-43b9-b0bb-5dee4d0badaf</subsheetid>
+    <narrative>Clean Up Page
+
+This is an optional page where you might choose to perform some finalisation (or "cleanup") tasks as your business object is closed down.
+
+The cleanup action will be called automatically immediately after closing your business object at the end of a business process.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than before the disposal of the business object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="84a945ed-9f8f-4151-84e1-41e441dad0df" name="Note2" type="Note">
+    <narrative>Initialise Page
+
+This is an optional page where you might choose to perform some initialisation tasks after your business object is loaded.
+
+The initialise action will be called automatically immediately after loading your business object.
+
+You will not be able to call this action from a business process, nor will it be called at any other time than after the creation of the object.</narrative>
+    <displayx>-180</displayx>
+    <displayy>60</displayy>
+    <displaywidth>180</displaywidth>
+    <displayheight>230</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+  </stage>
+  <stage stageid="953a614a-b564-4a96-a295-eeb4bf75a47d" name="Configure" type="Action">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="Username" narrative="The POP3 and SMTP Username" expr="[UserName]" />
+      <input type="password" name="Password" narrative="The POP3 and SMTP Password" expr="[Password]" />
+      <input type="text" name="POP3 Server" narrative="The POP3 Server address e.g. pop.domain.com" expr="" />
+      <input type="text" name="SMTP Server" narrative="The SMTP Server address e.g. smtp.domain.com" expr="[SMTP Server]" />
+      <input type="number" name="POP3 Port" narrative="The POP3 Port, e.g. 110 or 995" expr="" />
+      <input type="number" name="SMTP Port" narrative="The SMTP Port, e.g 25 or 465" expr="[SMTP Port]" />
+      <input type="flag" name="POP3 UseSSL" narrative="Whether to use SSL for POP3" expr="" />
+      <input type="flag" name="SMTP UseSSL" narrative="Whether to use SSL for SMTP" expr="False" />
+    </inputs>
+    <onsuccess>14a2042f-09f6-4c9b-903e-026b825cb971</onsuccess>
+    <resource object="Email - POP3/SMTP" action="Configure" />
+  </stage>
+  <stage stageid="8476e1e0-29a0-4e36-98c4-1da0bffa67bd" name="UserName" type="Data">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>165</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">s.jyothi.avadhanam@accenture.com</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="47543a84-585d-4631-a8e3-26fb73a84399" name="Password" type="Data">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>225</displayx>
+    <displayy>-105</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>password</datatype>
+    <initialvalueenc>32,22,23,73,72,6,68,84,114</initialvalueenc>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="9b6d0a71-011d-43bd-b826-909adbcc8ffb" name="SMTP Server" type="Data">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>180</displayx>
+    <displayy>-60</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue xml:space="preserve">ind.smtp.accenture.com</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="79b0a438-3f68-4713-8e0f-f9d9f6202c24" name="SMTP Port" type="Data">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>285</displayx>
+    <displayy>-45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>number</datatype>
+    <initialvalue>25</initialvalue>
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="14a2042f-09f6-4c9b-903e-026b825cb971" name="Send Message" type="Action">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>15</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <inputs>
+      <input type="text" name="From" narrative="The email address of the sender." expr="[From]" />
+      <input type="text" name="To" narrative="The email address of the recipient. To address multiple recipients use the format &quot;john.smith@example.com, henry.jones@example.com&quot; OR &quot;John Smith &lt;john.smith@example.com&gt;, Henry Jones &lt;henry.jones@example.com&gt;&quot;." expr="[To]" />
+      <input type="text" name="Subject" narrative="The subject of the email." expr="[Subject]" />
+      <input type="text" name="Body" narrative="The body of the email." expr="[Body]" />
+      <input type="collection" name="Attachments" narrative="A Collection containing a list of files to add to the email as attachments." expr="" />
+      <input type="flag" name="BodyIsHTML" narrative="Indicates if the body should be sent as HTML" expr="" />
+    </inputs>
+    <onsuccess>413a3f58-302e-4247-8ee2-0165277dd303</onsuccess>
+    <resource object="Email - POP3/SMTP" action="Send Message" />
+  </stage>
+  <stage stageid="7fc95f42-0166-4a08-b143-a29b6b688b8f" name="From" type="Data">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-210</displayx>
+    <displayy>15</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="7395b18f-4800-4409-bf59-b1c41beeec97" name="To" type="Data">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-150</displayx>
+    <displayy>45</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="2cf3f554-5e94-46dd-811e-071faf6c0feb" name="Subject" type="Data">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-105</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+  <stage stageid="835ca52e-17bb-4530-9bd5-c7479613842b" name="Body" type="Data">
+    <subsheetid>bd959668-cc8c-4678-819e-52369f0b7bc5</subsheetid>
+    <loginhibit />
+    <narrative>
+    </narrative>
+    <displayx>-180</displayx>
+    <displayy>-30</displayy>
+    <displaywidth>60</displaywidth>
+    <displayheight>30</displayheight>
+    <font family="Segoe UI" size="10" style="Regular" color="000000" />
+    <datatype>text</datatype>
+    <initialvalue />
+    <private />
+    <alwaysinit />
+  </stage>
+</process>
